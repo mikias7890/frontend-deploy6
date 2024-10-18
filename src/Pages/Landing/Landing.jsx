@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./Landing.module.css";
+import classes from "./landing.module.css";
 import About from "../../Components/About/About";
 import SignIn from "../../Components/SignIn/SignIn";
 import SignUp from "../../Components/SignUp/SignUp";
@@ -9,7 +9,7 @@ const LandingPage = () => {
   const [isLogin, setIsLogin] = useState(true);
 
   const toggleForm = () => {
-    setIsLogin(!isLogin); 
+    setIsLogin(!isLogin);
   };
 
   return (
